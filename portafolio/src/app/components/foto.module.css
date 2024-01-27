@@ -1,0 +1,31 @@
+.profile-img {
+    width: 215px;
+    height: 215px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--white);
+    border-color: var(--purple);
+    border-width: 10px;
+    border-style: solid;
+}
+
+.profile-img img {
+    border-radius: 50%;
+    
+    object-fit: contain;
+}
+
+
+@media(max-width: 768px) {
+    .profile-img {
+        width: 128px;
+        height: 128px;
+    }
+    
+    .profile-img img {
+        width: 120px;
+        height: 120px;
+    }
+}
